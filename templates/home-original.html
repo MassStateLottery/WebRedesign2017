@@ -1,0 +1,1036 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>MassLottery</title>
+
+		<!-- Bootstrap -->
+		<link href="../css/fonts.css" rel="stylesheet">
+		<link href="../css/bootstrap.min.css" rel="stylesheet">
+		<link href="../css/theme.bootstrap.css" rel="stylesheet">
+		<link href="../css/bootstrap-theme.css" rel="stylesheet">
+
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+		
+		<!-- favicon -->
+		<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+
+		<!-- meta description -->
+		<meta name="keywords" content="mass, lottery">
+		<meta name="description" content="Description of Mass Lottery.">
+
+		<!-- opengraph -->
+		<meta property="og:description" content="Description of Mass Lottery.">
+		<meta property="og:image" content="http://masslottery.com/img/open-graph.png">
+		<meta property="og:image:width" content="500">
+		<meta property="og:image:height" content="500">
+		<meta property="og:site_name" content="Mass Lottery">
+		<meta property="og:title" content="Mass Lottery">
+		<meta property="og:type" content="website">
+		<meta property="og:url" content="http://masslottery.com/">
+
+		<!-- twitter card -->
+		<meta name="twitter:card" content="summary">
+		<meta name="twitter:site" content="@MAStateLottery">
+		<meta name="twitter:creator" content="@MAStateLottery">
+		<meta name="twitter:title" content="Mass Lottery">
+		<meta name="twitter:description" content="Description of Mass Lottery.">
+		<meta name="twitter:image" content="http://masslottery.com/img/open-graph.png">
+		<meta name="twitter:domain" content="http://masslottery.com">
+	</head>
+	<body>
+		<header class="large-screen">
+			<div class="container">
+				<nav class="social">
+					<ul>
+						<li><a href="#" title="Facebook"><i class="fa fa-fw fa-facebook"></i></a></li>
+						<li><a href="#" title="Twitter"><i class="fa fa-fw fa-twitter"></i></a></li>
+						<li><a href="#" title="Instagram"><i class="fa fa-fw fa-instagram"></i></a></li>
+						<li><a href="#" title="YouTube"><i class="fa fa-fw fa-youtube"></i></a></li>
+						<li><a href="#" title="Flickr"><i class="fa fa-fw fa-flickr"></i></a></li>
+						<li><a href="#" title="RSS"><i class="fa fa-fw fa-rss"></i></a></li>
+					</ul>
+				</nav>
+
+				<nav class="utility">
+					<ul>
+						<li><a href="#">Lottery Commission</a></li><!--
+						--><li><a href="#">VIP Members</a></li><!--
+						--><li><a href="#">For Agents</a></li><!--
+						--><li><a href="#">Careers</a></li><!--
+						--><li><a href="#">Contact Us</a></li><!--
+						--><li><a href="#" class="search"><i class="fa fa-search"></i></a></li>
+					</ul>
+				</nav>
+				
+				<a href="/" class="logo"><img src="../img/mass-lottery.png" alt="Mass Lottery Logo"></a>
+
+				<nav class="primary">
+					<ul>
+						<li><a href="#">Instant Tickets</a></li>
+						<li><a href="#">Games</a></li>
+						<li><a href="#">Winners</a></li>
+						<li><a href="#">Where to Play</a></li>
+						<li><a href="#">About the Lottery</a></li>
+					</ul>
+				</nav>
+
+									<nav class="winning-numbers">
+						<span>Search Winning Numbers</span>
+						<div class="dropdown">
+							<button class="btn btn-default dropdown-toggle" type="button" id="search-winning-numbers" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+								Lottery Game
+								<span class="caret"></span>
+							</button>
+							<ul class="dropdown-menu" aria-labelledby="search-winning-numbers">
+								<li><a href="#">Megamillions</a></li>
+								<li><a href="#">Powerball</a></li>
+								<li><a href="#">Megabucks</a></li>
+								<li><a href="#">Lucky for Life</a></li>
+								<li><a href="#">The Numbers Game</a></li>
+								<li><a href="#">Mass Cash</a></li>
+								<li><a href="#">Jackpot Poker</a></li>
+								<li><a href="#">Keno</a></li>
+							</ul>
+						</div>
+					</nav>
+								</div>
+		</header>
+		
+		<header class="small-screen">
+			<div class="container">
+				<a href="/" class="logo"><img src="../img/mass-lottery.png" alt="Mass Lottery Logo"></a>
+				<a href="#menu" class="menu"><i class="fa fa-bars"></i></a>
+			</div>
+
+			<div class="menu-panel">
+				<div class="menu-panel-wrapper">
+					<div class="row">
+						<nav class="primary">
+							<ul>
+								<li><a href="#">Instant Tickets</a></li>
+								<li><a href="#">Games</a></li>
+								<li><a href="#">Winners</a></li>
+								<li><a href="#">Where to Play</a></li>
+								<li><a href="#">About the Lottery</a></li>
+							</ul>
+						</nav>
+
+						<nav class="winning-numbers">
+							<span>Search Winning Numbers</span><br>
+							<div class="dropdown">
+								<button class="btn btn-default dropdown-toggle" type="button" id="search-winning-numbers-small" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+									Lottery Game
+									<span class="caret"></span>
+								</button>
+								<ul class="dropdown-menu" aria-labelledby="search-winning-numbers-small">
+									<li><a href="#">Megamillions</a></li>
+									<li><a href="#">Powerball</a></li>
+									<li><a href="#">Megabucks</a></li>
+									<li><a href="#">Lucky for Life</a></li>
+									<li><a href="#">The Numbers Game</a></li>
+									<li><a href="#">Mass Cash</a></li>
+									<li><a href="#">Jackpot Poker</a></li>
+									<li><a href="#">Keno</a></li>
+								</ul>
+							</div>
+						</nav>
+						
+						<nav class="utility">
+							<ul>
+								<li><a href="#">Lottery Commission</a></li><!--
+								--><li><a href="#">VIP Members</a></li><!--
+								--><li><a href="#">For Agents</a></li><!--
+								--><li><a href="#">Careers</a></li><!--
+								--><li><a href="#">Contact Us</a></li>
+							</ul>
+						</nav>
+						
+						<nav class="search">
+							<form action="">
+								<div class="col-xs-12">
+									<div class="input-group">
+										<input type="text" class="form-control" placeholder="Search for...">
+										<span class="input-group-btn">
+											<button class="btn btn-default" type="button"><i class="fa fa-search fa-fw"></i></button>
+										</span>
+									</div>
+								</div>
+							</form>
+						</nav>
+
+						<nav class="social">
+							<ul>
+								<li><a href="#" title="Facebook"><i class="fa fa-fw fa-facebook"></i></a></li>
+								<li><a href="#" title="Twitter"><i class="fa fa-fw fa-twitter"></i></a></li>
+								<li><a href="#" title="Instagram"><i class="fa fa-fw fa-instagram"></i></a></li>
+								<li><a href="#" title="YouTube"><i class="fa fa-fw fa-youtube"></i></a></li>
+								<li><a href="#" title="Flickr"><i class="fa fa-fw fa-flickr"></i></a></li>
+								<li><a href="#" title="RSS"><i class="fa fa-fw fa-rss"></i></a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</header>
+		
+				
+		<main>
+			<div class="container">
+	<div class="recent-numbers-hero">
+		<h2>Lottery Games</h2>
+	
+		<div class="row">
+			<!-- megamillions -->
+			<div class="col-sm-6 latest-numbers gray">
+				<div class="game-with-numbers match-height">
+					<div class="game-logo">
+						<img src="../img/games/megamillions.png" alt="Megamillions">
+					</div>
+	
+					<div class="numbers">
+						<h3>Tuesday 04/26/2016</h3>
+	
+						<span class="number">14</span>
+						<span class="number">16</span>
+						<span class="number">17</span>
+						<span class="number">28</span>
+						<span class="number">48</span>
+	
+						<div class="row">
+							<div class="col-xs-6">
+								<h3>Megaball</h3>
+								<span class="number">02</span>
+							</div>
+							<div class="col-xs-6">
+								<h3>Megaplier</h3>
+								<span class="number">2</span>
+							</div>
+						</div>
+					</div>
+					<div class="next-drawing">
+						<p>
+							<strong>Next Drawing: 04/29/2016</strong><br>
+							Estimated Jackpot:<br>
+							<strong>$118 Million</strong><br>
+							($75 Million Est. Cash Option)
+						</p>
+					</div>
+				</div>
+			</div>
+			<!-- lucky for life -->
+			<div class="col-sm-6 latest-numbers blue">
+				<div class="game-with-numbers match-height">
+					<div class="game-logo">
+						<img src="../img/games/lucky-for-life.png" alt="Lucky for Life">
+					</div>
+	
+					<div class="numbers">
+						<h3>Thursday 04/28/2016</h3>
+	
+						<span class="number">08</span>
+						<span class="number">12</span>
+						<span class="number">27</span>
+						<span class="number">32</span>
+						<span class="number">39</span>
+	
+						<div class="row">
+							<div class="col-xs-12">
+								<h3>Luckyball</h3>
+								<span class="number">05</span>
+							</div>
+						</div>
+					</div>
+					
+					<div class="next-drawing">
+						<p>
+							<strong>Next Drawing: 05/02/2016</strong><br>
+							Estimated Top Prize:<br>
+							<strong>$1,000 a Day</strong>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row color-swap-md">
+			<!-- powerball -->
+			<div class="col-sm-6 latest-numbers blue">
+				<div class="game-with-numbers match-height">
+					<div class="game-logo">
+						<img src="../img/games/powerball.png" alt="Powerball" class="game-logo">
+					</div>
+	
+					<div class="numbers">
+						<h3>Wednesday 04/27/2016</h3>
+	
+						<span class="number">02</span>
+						<span class="number">25</span>
+						<span class="number">33</span>
+						<span class="number">39</span>
+						<span class="number">64</span>
+	
+						<div class="row">
+							<div class="col-xs-6">
+								<h3>Powerball</h3>
+								<span class="number">17</span>
+							</div>
+							<div class="col-xs-6">
+								<h3>Powerplay</h3>
+								<span class="number">2</span>
+							</div>
+						</div>
+					</div>
+					<div class="next-drawing">
+						<p>
+							<strong>Next Drawing: 04/30/2016</strong><br>
+							Estimated Jackpot:<br>
+							<strong>$314 Million</strong><br>
+							($204.7 Million Est. Cash Option)
+						</p>
+					</div>
+				</div>
+			</div>
+			<!-- the numbers games -->
+			<div class="col-sm-6 latest-numbers gray">
+				<div class="game-with-numbers match-height">
+					<div class="game-logo">
+						<img src="../img/games/numbers-game.png" alt="The Numbers Game">
+					</div>
+	
+					<div class="numbers">
+						<h3>Thursday 04/28/2016<br>Midday</h3>
+	
+						<span class="number">9</span>
+						<span class="number">3</span>
+						<span class="number">2</span>
+						<span class="number">4</span>
+	
+						<p>
+							Next Drawing:<br>
+							04/29/2016
+						</p>
+					</div>
+					
+					<div class="next-drawing no-pad">
+						<div class="numbers">
+							<h3>Thursday 04/28/2016<br>Evening</h3>
+
+							<span class="number">1</span>
+							<span class="number">1</span>
+							<span class="number">0</span>
+							<span class="number">7</span>
+
+							<p>
+								Next Drawing:<br>
+								04/29/2016
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<!-- megabucks -->
+			<div class="col-sm-6 latest-numbers gray">
+				<div class="game-with-numbers match-height">
+					<div class="game-logo">
+						<img src="../img/games/megabucks.png" alt="Megabucks">
+					</div>
+	
+					<div class="numbers">
+						<h3>Wednesday 04/27/2016</h3>
+	
+						<span class="number">02</span>
+						<span class="number">15</span>
+						<span class="number">21</span>
+						<span class="number">36</span>
+						<span class="number">44</span>
+						<span class="number">49</span>
+					</div>
+					<div class="next-drawing">
+						<p>
+							<strong>Next Drawing: 04/30/2016</strong><br>
+							Estimated Jackpot:<br>
+							<strong>$1,500,000</strong><br>
+							($1,230,000 Est. Cash Option)
+						</p>
+					</div>
+				</div>
+			</div>
+			<!-- mass-cash -->
+			<div class="col-sm-6 latest-numbers blue">
+				<div class="game-with-numbers match-height">
+					<div class="game-logo">
+						<img src="../img/games/mass-cash.png" alt="Mass Ca$h">
+					</div>
+	
+					<div class="numbers">
+						<h3>Thursday 04/28/2016</h3>
+	
+						<span class="number">22</span>
+						<span class="number">24</span>
+						<span class="number">31</span>
+						<span class="number">33</span>
+						<span class="number">34</span>
+					</div>
+					<div class="next-drawing">
+						<p>
+							<strong>Next Drawing: 04/30/2016</strong><br>
+							Estimated Jackpot:<br>
+							<strong>$100,000</strong>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="recent-numbers-hero">
+		<h2>Other Games</h2>
+	
+		<div class="row">
+			<div class="col-sm-6 latest-numbers blue">
+				<div class="game-with-numbers no-next-drawing match-height">
+					<div class="game-logo">
+						<img src="../img/games/jackpot-poker.png" alt="Jackpot Poker">
+					</div>
+	
+					<div class="numbers">
+						<h3>Wednesday 04/27/2016</h3>
+	
+						<div class="number-group">
+							<span class="number">02</span>
+							<span class="number">25</span>
+							<span class="number">33</span>
+							<span class="number">39</span>
+							<span class="number">64</span>
+						</div>
+	
+						<div class="number-group">
+							<span class="number invert">02</span>
+							<span class="number invert">25</span>
+							<span class="number invert">33</span>
+							<span class="number invert">39</span>
+							<span class="number invert">64</span>
+						</div>
+	
+						<div class="number-group">
+							<span class="number">02</span>
+							<span class="number">25</span>
+						</div>
+					</div>
+				</div>
+			</div>
+	
+			<div class="col-sm-6 latest-numbers gray">
+				<div class="game-with-numbers no-next-drawing match-height">
+					<div class="game-logo">
+						<img src="../img/games/keno.png" alt="Keno">						
+					</div>
+	
+					<div class="numbers">
+						<h3>Wednesday 04/27/2016</h3>
+	
+						<div class="number-group">
+							<span class="number">22</span>
+							<span class="number">24</span>
+							<span class="number">31</span>
+							<span class="number">33</span>
+							<span class="number">34</span>
+						</div>
+	
+						<div class="number-group">
+							<span class="number invert">22</span>
+							<span class="number invert">24</span>
+							<span class="number invert">31</span>
+							<span class="number invert">33</span>
+							<span class="number invert">34</span>
+						</div>
+	
+						<div class="number-group">
+							<span class="number">22</span>
+							<span class="number">24</span>
+							<span class="number">31</span>
+							<span class="number">33</span>
+							<span class="number">34</span>
+						</div>
+	
+						<div class="number-group">
+							<span class="number invert">22</span>
+							<span class="number invert">24</span>
+							<span class="number invert">31</span>
+							<span class="number invert">33</span>
+							<span class="number invert">34</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="row highlights">
+		<div class="col-md-7 col-lg-8">
+			<ul class="carousel home-features" data-ref="promo-carousel">
+				<li><a href="#"><img src="http://placehold.it/376x188/eee" alt=""></a></li>
+				<li><a href="#"><img src="http://placehold.it/376x188/ddd" alt=""></a></li>
+				<li><a href="#"><img src="http://placehold.it/376x188/ccc" alt=""></a></li>
+				<li><a href="#"><img src="http://placehold.it/376x188/bbb" alt=""></a></li>
+				<li><a href="#"><img src="http://placehold.it/376x188/aaa" alt=""></a></li>
+				<li><a href="#"><img src="http://placehold.it/376x188/999" alt=""></a></li>
+				<li><a href="#"><img src="http://placehold.it/376x188/888" alt=""></a></li>
+				<li><a href="#"><img src="http://placehold.it/376x188/777" alt=""></a></li>
+				<li><a href="#"><img src="http://placehold.it/376x188/666" alt=""></a></li>
+				<li><a href="#"><img src="http://placehold.it/376x188/555" alt=""></a></li>
+			</ul>
+			
+			<!-- tabs -->
+			<div class="tabs promos styled-tabs">
+				<ul class="nav nav-tabs " role="tablist">
+					<li role="presentation" class="active">
+						<a href="#tab-new-tickets" class="match-height" aria-controls="tab-new-tickets" role="tab" data-toggle="tab"><div><span>New Tickets</span></div></a>
+					</li>
+					<li role="presentation">
+						<a href="#tab-second-chance" class="match-height" aria-controls="tab-second-chance" role="tab" data-toggle="tab"><div><span>Second Chance Drawings</span></div></a>
+					</li>
+					<li role="presentation">
+						<a href="#tab-all-tickets" class="match-height" aria-controls="tab-all-tickets" role="tab" data-toggle="tab"><div><span>All Tickets</span></div></a>
+					</li>
+					<li role="presentation">
+						<a href="#tab-end-of-game" class="match-height" aria-controls="tab-end-of-game" role="tab" data-toggle="tab"><div><span>End of Game Announcements</span></div></a>
+					</li>
+				</ul>
+	
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active full-bleed" id="tab-new-tickets">
+						<img src="../img/sample-promo.jpg" alt="Sample promo">
+					</div>
+					<div role="tabpanel" class="tab-pane full-bleed" id="tab-second-chance">
+						<img src="../img/sample-promo.jpg" alt="Sample promo">
+					</div>
+					<div role="tabpanel" class="tab-pane full-bleed" id="tab-all-tickets">
+						<img src="../img/sample-promo.jpg" alt="Sample promo">
+					</div>
+					<div role="tabpanel" class="tab-pane full-bleed" id="tab-end-of-game">
+						<img src="../img/sample-promo.jpg" alt="Sample promo">
+					</div>
+				</div>
+			</div>
+
+			<!-- small-screen view of promos -->
+			<div class="small-screen-styled-tabs">
+				<div class="panel-group accordion" id="promos" role="tablist" aria-multiselectable="true">
+					<div class="panel panel-default">
+						<div class="panel-heading" role="tab" id="accordion-new-tickets-heading">
+							<h4 class="panel-title">
+								<a href="#accordion-new-tickets" class="collapsed" role="button" data-toggle="collapse" data-parent="#promos" aria-expanded="true" aria-controls="accordion-new-tickets">
+									New Tickets
+								</a>
+							</h4>
+						</div>
+
+						<div id="accordion-new-tickets" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-new-tickets">
+							<div class="panel-wrapper full-bleed">
+								<img src="../img/sample-promo.jpg" alt="Sample promo">
+							</div>
+						</div>
+					</div>
+
+					<div class="panel panel-default">
+						<div class="panel-heading" role="tab" id="accordion-second-chance-heading">
+							<h4 class="panel-title">
+								<a href="#accordion-second-chance" class="collapsed" role="button" data-toggle="collapse" data-parent="#promos" aria-expanded="true" aria-controls="accordion-second-chance">
+									Second Chance Drawings
+								</a>
+							</h4>
+						</div>
+
+						<div id="accordion-second-chance" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-second-chance-heading">
+							<div class="panel-wrapper full-bleed">
+								<img src="../img/sample-promo.jpg" alt="Sample promo">
+							</div>
+						</div>
+					</div>
+
+					<div class="panel panel-default">
+						<div class="panel-heading" role="tab" id="accordion-all-tickets-heading">
+							<h4 class="panel-title">
+								<a href="#accordion-all-tickets" class="collapsed" role="button" data-toggle="collapse" data-parent="#promos" aria-expanded="true" aria-controls="accordion-all-tickets">
+									All Tickets
+								</a>
+							</h4>
+						</div>
+
+						<div id="accordion-all-tickets" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-all-tickets-heading">
+							<div class="panel-wrapper full-bleed">
+								<img src="../img/sample-promo.jpg" alt="Sample promo">
+							</div>
+						</div>
+					</div>
+
+					<div class="panel panel-default">
+						<div class="panel-heading" role="tab" id="accordion-end-of-game-heading">
+							<h4 class="panel-title">
+								<a href="#accordion-end-of-game" class="collapsed" role="button" data-toggle="collapse" data-parent="#promos" aria-expanded="true" aria-controls="accordion-end-of-game">
+									End of Game Annoucements
+								</a>
+							</h4>
+						</div>
+
+						<div id="accordion-end-of-game" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-end-of-game-heading">
+							<div class="panel-wrapper full-bleed">
+								<img src="../img/sample-promo.jpg" alt="Sample promo">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- vip club -->
+			<div class="feature-box vip-club">
+				<h2>VIP Club</h2>
+				
+				<img src="../img/vip-logo.jpg" alt="VIP Club logo">
+				
+				<div class="description">
+					<h3>
+						Join the<br>
+						<strong>VIP Club</strong><br>
+						To Enter the Lottery’s Second Chance Drawings Online
+					</h3>
+					
+					<p>
+						It’s an internet site everyone can join to learn more about
+						playing all Massachusetts State Lottery Games.
+						<strong>And best of all — it’s FREE!</strong>
+					</p>
+					
+					<p>
+						<a href="#" class="btn btn-green">Join Now</a>
+					</p>
+				</div>
+			</div>
+			
+			<!-- another carousel? -->
+			<div class="feature-box past-winners">
+				<h2>Past Winners</h2>
+				
+				<ul class="carousel single">
+					<li>
+						<a href="#" class="photo">
+							<img src="../img/sample-winner.jpg" alt="">
+						</a>
+						
+						<div class="description">
+							<h3>
+								Worcester man parlays into 'Utlimate' $1 million prize
+								<span class="date">
+									April 22, 2016
+								</span>
+							</h3>
+							
+							<p>
+								Edward Monahan, Jr. of Worcester is the second $1 million prize winner in the Massachusetts State Lottery’s new “Ultimate Millions” $30 instant ticket game.
+							</p>
+							
+							<p>
+								<a href="" class="btn btn-green">Read More</a>
+							</p>
+						</div>
+					</li>
+					<li>
+						<a href="#" class="photo">
+							<img src="../img/sample-winner.jpg" alt="">
+						</a>
+						
+						<div class="description">
+							<h3>
+								Worcester man parlays into 'Utlimate' $1 million prize
+								<span class="date">
+									April 22, 2016
+								</span>
+							</h3>
+							
+							<p>
+								Edward Monahan, Jr. of Worcester is the second $1 million prize winner in the Massachusetts State Lottery’s new “Ultimate Millions” $30 instant ticket game.
+							</p>
+							
+							<p>
+								<a href="" class="btn btn-green">Read More</a>
+							</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		
+		<div class="col-md-5 col-lg-4">
+			<section class="highlight-box where-to-play blue-background">
+				<h2>Where to Play</h2>
+				
+				<div class="box">
+					<form action="" method="post">
+						<div class="tabs toggler">
+							<ul class="nav nav-tabs nav-justified" role="tablist" data-update="where-game">
+								<li role="presentation" class="active">
+									<a href="#tab-keno" aria-controls="tab-keno" role="tab" data-toggle="tab">Keno</a>
+								</li>
+								<li role="presentation">
+									<a href="#tab-all-or-nothing" aria-controls="tab-all-or-nothing" role="tab" data-toggle="tab">All or Nothing</a>
+								</li>
+							</ul>
+							
+							<input type="hidden" name="game" id="where-game" value="keno">
+						</div>
+						
+						<div class="row">
+							<div class="col-xs-12 search-by">
+								<h3>Search By:</h3>
+								
+								<div class="row">
+									<div class="col-xs-5">
+										<select name="zip-code" id="play-zip-code" class="form-control zip-code">
+											<option value="">Zip Code</option>
+											<option value="01001">01001</option>
+											<option value="01002">01002</option>
+											<option value="01003">01003</option>
+											<option value="01004">01004</option>
+										</select>
+									</div>
+									<div class="col-xs-2 or">
+										<strong>or</strong>
+									</div>
+									<div class="col-xs-5">
+										<select name="town" id="play-town" class="form-control town">
+											<option value="">Town</option>
+											<option value="Abington">Abington</option>
+											<option value="Acton">Acton</option>
+											<option value="Acushnet">Acushnet</option>
+											<option value="Adams">Adams</option>
+											<option value="Agawam">Agawam</option>
+											<option value="Allston">Allston</option>
+											<option value="Amesbury">Amesbury</option>
+											<option value="Amherst">Amherst</option>
+											<option value="Andover">Andover</option>
+											<option value="Arlington">Arlington</option>
+											<option value="Ashburnham">Ashburnham</option>
+											<option value="Ashby">Ashby</option>
+											<option value="Ashfield">Ashfield</option>
+											<option value="Ashland">Ashland</option>
+										</select>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+						<div class="row">
+							<div class="col-xs-12">
+								<input type="submit" class="btn btn-green" value="Search">
+							</div>
+						</div>
+					</form>
+				</div>
+			</section>
+			
+			<section class="highlight-box how-to-claim">
+				<h2>How to Claim</h2>
+				
+				<div class="box">
+					<h3>What to Bring</h3>
+					
+					<div class="panel-group accordion invert" id="what-to-bring" role="tablist" aria-multiselectable="true">
+						<div class="panel panel-default">
+							<div class="panel-heading" role="tab" id="winning-ticket-heading">
+								<h4 class="panel-title">
+									<a href="#winning-ticket" class="collapsed" role="button" data-toggle="collapse" data-parent="#what-to-bring" aria-expanded="true" aria-controls="winning-ticket">
+										<span>1</span>
+										Your Winning Ticket
+									</a>
+								</h4>
+							</div>
+							
+							<div id="winning-ticket" class="panel-collapse collapse" role="tabpanel" aria-labelledby="winning-ticket-heading">
+								<div class="panel-wrapper">
+									box 1
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading" role="tab" id="signed-photo-id-heading">
+								<h4 class="panel-title">
+									<a href="#signed-photo-id" class="collapsed" role="button" data-toggle="collapse" data-parent="#what-to-bring" aria-expanded="true" aria-controls="signed-photo-id">
+										<span>2</span>
+										Signed Photo ID
+									</a>
+								</h4>
+							</div>
+							
+							<div id="signed-photo-id" class="panel-collapse collapse" role="tabpanel" aria-labelledby="signed-photo-id-heading">
+								<div class="panel-wrapper">
+									box 2
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading" role="tab" id="proof-of-ssn-heading">
+								<h4 class="panel-title">
+									<a href="#proof-of-ssn" class="collapsed" role="button" data-toggle="collapse" data-parent="#what-to-bring" aria-expanded="true" aria-controls="proof-of-ssn">
+										<span>3</span>
+										Proof of Your SSN
+									</a>
+								</h4>
+							</div>
+							
+							<div id="proof-of-ssn" class="panel-collapse collapse" role="tabpanel" aria-labelledby="proof-of-ssn-heading">
+								<div class="panel-wrapper">
+									box 3
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<h3>Claiming</h3>
+					<div class="panel-group accordion" id="claiming" role="tablist" aria-multiselectable="true">
+						<div class="panel panel-default">
+							<div class="panel-heading" role="tab" id="under-600-heading">
+								<h4 class="panel-title">
+									<a href="#under-600" class="collapsed" role="button" data-toggle="collapse" data-parent="#claiming" aria-expanded="true" aria-controls="under-600">
+										Prizes under $600
+									</a>
+								</h4>
+							</div>
+							
+							<div id="under-600" class="panel-collapse collapse" role="tabpanel" aria-labelledby="under-600-heading">
+								<div class="panel-wrapper">
+									Under $600
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading" role="tab" id="under-50000-heading">
+								<h4 class="panel-title">
+									<a href="#under-50000" class="collapsed" role="button" data-toggle="collapse" data-parent="#claiming" aria-expanded="true" aria-controls="under-50000">
+										Prizes between $601 and $49,999
+									</a>
+								</h4>
+							</div>
+							
+							<div id="under-50000" class="panel-collapse collapse" role="tabpanel" aria-labelledby="under-50000-heading">
+								<div class="panel-wrapper">
+									$601 – $49,999
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading" role="tab" id="over-50000-heading">
+								<h4 class="panel-title">
+									<a href="#over-50000" class="collapsed" role="button" data-toggle="collapse" data-parent="#claiming" aria-expanded="true" aria-controls="over-50000">
+										Prizes $50,000 or more
+									</a>
+								</h4>
+							</div>
+							
+							<div id="over-50000" class="panel-collapse collapse" role="tabpanel" aria-labelledby="over-50000-heading">
+								<div class="panel-wrapper">
+									<p>
+										You must claim any prize of $50,000 or more at our Lottery
+										Headquarters in Braintree, Massachusetts.
+									</p>
+	
+									<p>
+										Claimants of lifetime prizes must also provide certified copy
+										of birth certificate unless selecting a cash option (if available).
+									</p>
+	
+									<p>
+										<strong>Lottery Headquarters</strong><br>
+										60 Columbian Street<br>
+										Braintree, MA 02184<br>
+										(781) 849-5555
+									</p>
+	
+									<p>
+										<strong>Hours</strong><br>
+										Monday – Friday (excluding holidays)<br>
+										8:45am – 4:30pm
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			
+			<section class="highlight-box news blue-background">
+				<h2>News</h2>
+				
+				<div class="box invert-dots">
+					<ul class="carousel single">
+						<li>
+							<h3>
+								Powerball Jackbot Reaches $415 Million
+								<span class="date">May 5, 2016</span>
+							</h3>
+							
+							<p>
+								The Powerball jackpot for the Saturday, May 7 drawing is an
+								estimated $415 million. The cash option on the prize is an
+								estimated $269.7 million.
+							</p>
+							
+							<p>
+								<a href="#" class="btn btn-green">Read More</a>
+							</p>
+						</li>
+						<li>
+							<h3>
+								Powerball Jackbot Reaches $415 Million
+								<span class="date">May 5, 2016</span>
+							</h3>
+							
+							<p>
+								The Powerball jackpot for the Saturday, May 7 drawing is an
+								estimated $415 million. The cash option on the prize is an
+								estimated $269.7 million.
+							</p>
+							
+							<p>
+								<a href="#" class="btn btn-green">Read More</a>
+							</p>
+						</li>
+						<li>
+							<h3>
+								Powerball Jackbot Reaches $415 Million
+								<span class="date">May 5, 2016</span>
+							</h3>
+							
+							<p>
+								The Powerball jackpot for the Saturday, May 7 drawing is an
+								estimated $415 million. The cash option on the prize is an
+								estimated $269.7 million.
+								The Powerball jackpot for the Saturday, May 7 drawing is an
+								estimated $415 million. The cash option on the prize is an
+								estimated $269.7 million.
+							</p>
+							
+							<p>
+								<a href="#" class="btn btn-green">Read More</a>
+							</p>
+						</li>
+					</ul>
+				</div>
+			</section>
+			
+			<section class="highlight-box lifeline">
+				<img src="../img/lifeline.png" alt="Call 1-800-GAM-1234 to get help with compulsive gambling.">
+			</section>
+		</div>
+	</div>
+			</div>
+		</main>
+
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8">
+						<div class="row">
+							<div class="contact col-xs-4">
+								<h2>Contact</h2>
+	
+								<p class="address">
+									60 Columbian Street<br>
+									Braintree, MA 02184
+								</p>
+	
+								<p class="phone">
+									(781) 849-5555
+								</p>
+	
+								<ul>
+									<li><a href="#">View all offices</a></li>
+									<li><a href="#">Email the Webmaster</a></li>
+									<li><a href="#">ADA Information</a></li>
+								</ul>
+							</div>
+	
+							<div class="quick-links col-xs-4">
+								<h2>Quick Links</h2>
+	
+								<ul>
+									<li><a href="#">Lottery Games</a></li>
+									<li><a href="#">Instant Games</a></li>
+									<li><a href="#">VIP Club</a></li>
+									<li><a href="#">Becoming an agent</a></li>
+									<li><a href="#">Claiming a prize</a></li>
+									<li><a href="#">Drawing procedures</a></li>
+									<li><a href="#">FAQs</a></li>
+									<li><a href="#">Procurement</a></li>
+								</ul>
+							</div>
+	
+							<div class="where-can-i col-xs-4">
+								<h2>Where can I…</h2>
+	
+								<ul>
+									<li><a href="#">Find past winning numbers</a></li>
+									<li><a href="#">Play Lottery Games</a></li>
+									<li><a href="#">Play Bingo</a></li>
+									<li><a href="#">Find Lottery office locations</a></li>
+									<li><a href="#">Get help with compulsive gambling</a></li>
+									<li><a href="#">Find other state agencies</a></li>
+									<li><a href="#">Buy Season Tickets</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="legal col-md-4">
+						<p>
+							<strong>Disclaimer: Information found on this website is believed to be accurate.</strong>
+							If you have questions about the winning numbers, contact the Lottery at (781) 848-7755 or visit your nearest Lottery agent or Lottery office for the official winning numbers.
+						</p>
+	
+						<p>
+							<strong>The Lottery would like to remind players that it is UNLAWFUL for anyone under the age of 18 to play.</strong><br>
+							© 2016 Massachusetts State Lottery Commission, All Rights Reserved
+							A Commission under the Department of the Treasurer and Receiver General of the Commonwealth
+						</p>
+	
+						<p class="legal-links">
+							<a href="#">Site Map &gt;</a>
+							<a href="#">Privacy &gt;</a>
+							<a href="#">Legal Notice &gt;</a>
+							<a href="http://mass.gov">Mass.gov &gt;</a>
+							<a href="#">Compulsive Gambling Help &gt;</a>
+						</p>
+					</div>
+				</div>
+
+				<nav class="social">
+					<ul>
+						<li><a href="#" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="#" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="#" title="Instagram"><i class="fa fa-instagram"></i></a></li>
+						<li><a href="#" title="YouTube"><i class="fa fa-youtube"></i></a></li>
+						<li><a href="#" title="Flickr"><i class="fa fa-flickr"></i></a></li>
+						<li><a href="#" title="RSS"><i class="fa fa-rss"></i></a></li>
+					</ul>
+				</nav>
+			</div>
+		</footer>
+
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="/js/jquery.js"></script>
+		<script src="/js/jquery.match-height.js"></script>
+		<script src="/js/lightslider.min.js"></script>
+		<script src="/js/jquery.tablesorter.combined.js"></script>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="/js/bootstrap.min.js"></script>
+		<script src="/js/site.js"></script>
+	</body>
+</html>

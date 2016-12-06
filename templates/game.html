@@ -1,0 +1,1231 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>MassLottery</title>
+
+		<!-- Bootstrap -->
+		<link href="../css/fonts.css" rel="stylesheet">
+		<link href="../css/bootstrap.min.css" rel="stylesheet">
+		<link href="../css/theme.bootstrap.css" rel="stylesheet">
+		<link href="../css/bootstrap-theme.css" rel="stylesheet">
+
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+		
+		<!-- favicon -->
+		<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+
+		<!-- meta description -->
+		<meta name="keywords" content="mass, lottery">
+		<meta name="description" content="Description of Mass Lottery.">
+
+		<!-- opengraph -->
+		<meta property="og:description" content="Description of Mass Lottery.">
+		<meta property="og:image" content="http://masslottery.com/img/open-graph.png">
+		<meta property="og:image:width" content="500">
+		<meta property="og:image:height" content="500">
+		<meta property="og:site_name" content="Mass Lottery">
+		<meta property="og:title" content="Mass Lottery">
+		<meta property="og:type" content="website">
+		<meta property="og:url" content="http://masslottery.com/">
+
+		<!-- twitter card -->
+		<meta name="twitter:card" content="summary">
+		<meta name="twitter:site" content="@MAStateLottery">
+		<meta name="twitter:creator" content="@MAStateLottery">
+		<meta name="twitter:title" content="Mass Lottery">
+		<meta name="twitter:description" content="Description of Mass Lottery.">
+		<meta name="twitter:image" content="http://masslottery.com/img/open-graph.png">
+		<meta name="twitter:domain" content="http://masslottery.com">
+	</head>
+	<body>
+		<header class="large-screen">
+			<div class="container">
+				<nav class="social">
+					<ul>
+						<li><a href="#" title="Facebook"><i class="fa fa-fw fa-facebook"></i></a></li>
+						<li><a href="#" title="Twitter"><i class="fa fa-fw fa-twitter"></i></a></li>
+						<li><a href="#" title="Instagram"><i class="fa fa-fw fa-instagram"></i></a></li>
+						<li><a href="#" title="YouTube"><i class="fa fa-fw fa-youtube"></i></a></li>
+						<li><a href="#" title="Flickr"><i class="fa fa-fw fa-flickr"></i></a></li>
+						<li><a href="#" title="RSS"><i class="fa fa-fw fa-rss"></i></a></li>
+					</ul>
+				</nav>
+
+				<nav class="utility">
+					<ul>
+						<li><a href="#">Lottery Commission</a></li><!--
+						--><li><a href="#">VIP Members</a></li><!--
+						--><li><a href="#">For Agents</a></li><!--
+						--><li><a href="#">Careers</a></li><!--
+						--><li><a href="#">Contact Us</a></li><!--
+						--><li><a href="#" class="search"><i class="fa fa-search"></i></a></li>
+					</ul>
+				</nav>
+				
+				<a href="/" class="logo"><img src="../img/mass-lottery.png" alt="Mass Lottery Logo"></a>
+
+				<nav class="primary">
+					<ul>
+						<li><a href="#">Instant Tickets</a></li>
+						<li><a href="#" class="active">Games</a></li>
+						<li><a href="#">Winners</a></li>
+						<li><a href="#">Where to Play</a></li>
+						<li><a href="#">About the Lottery</a></li>
+					</ul>
+				</nav>
+
+							</div>
+		</header>
+		
+		<header class="small-screen">
+			<div class="container">
+				<a href="/" class="logo"><img src="/img/mass-lottery.png" alt="Mass Lottery Logo"></a>
+				<a href="#menu" class="menu"><i class="fa fa-bars"></i></a>
+			</div>
+
+			<div class="menu-panel">
+				<div class="menu-panel-wrapper">
+					<div class="row">
+						<nav class="primary">
+							<ul>
+								<li><a href="#">Instant Tickets</a></li>
+								<li><a href="#">Games</a></li>
+								<li><a href="#">Winners</a></li>
+								<li><a href="#">Where to Play</a></li>
+								<li><a href="#">About the Lottery</a></li>
+							</ul>
+						</nav>
+
+						<nav class="winning-numbers">
+							<span>Search Winning Numbers</span><br>
+							<div class="dropdown">
+								<button class="btn btn-default dropdown-toggle" type="button" id="search-winning-numbers-small" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+									Lottery Game
+									<span class="caret"></span>
+								</button>
+								<ul class="dropdown-menu" aria-labelledby="search-winning-numbers-small">
+									<li><a href="#">Megamillions</a></li>
+									<li><a href="#">Powerball</a></li>
+									<li><a href="#">Megabucks</a></li>
+									<li><a href="#">Lucky for Life</a></li>
+									<li><a href="#">The Numbers Game</a></li>
+									<li><a href="#">Mass Cash</a></li>
+									<li><a href="#">Jackpot Poker</a></li>
+									<li><a href="#">Keno</a></li>
+								</ul>
+							</div>
+						</nav>
+						
+						<nav class="utility">
+							<ul>
+								<li><a href="#">Lottery Commission</a></li><!--
+								--><li><a href="#">VIP Members</a></li><!--
+								--><li><a href="#">For Agents</a></li><!--
+								--><li><a href="#">Careers</a></li><!--
+								--><li><a href="#">Contact Us</a></li>
+							</ul>
+						</nav>
+						
+						<nav class="search">
+							<form action="">
+								<div class="col-xs-12">
+									<div class="input-group">
+										<input type="text" class="form-control" placeholder="Search for...">
+										<span class="input-group-btn">
+											<button class="btn btn-default" type="button"><i class="fa fa-search fa-fw"></i></button>
+										</span>
+									</div>
+								</div>
+							</form>
+						</nav>
+
+						<nav class="social">
+							<ul>
+								<li><a href="#" title="Facebook"><i class="fa fa-fw fa-facebook"></i></a></li>
+								<li><a href="#" title="Twitter"><i class="fa fa-fw fa-twitter"></i></a></li>
+								<li><a href="#" title="Instagram"><i class="fa fa-fw fa-instagram"></i></a></li>
+								<li><a href="#" title="YouTube"><i class="fa fa-fw fa-youtube"></i></a></li>
+								<li><a href="#" title="Flickr"><i class="fa fa-fw fa-flickr"></i></a></li>
+								<li><a href="#" title="RSS"><i class="fa fa-fw fa-rss"></i></a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</header>
+		
+					<div class="game-selector">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
+							<form action="">
+								<div class="row">
+									<div class="col-xs-6">
+										<label for="game-category">Select Category</label>
+
+										<div class="dropdown">
+											<button class="btn btn-default dropdown-toggle" type="button" id="game-category" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+												Lottery Games
+												<span class="caret"></span>
+											</button>
+											<ul class="dropdown-menu" aria-labelledby="game-category">
+												<li><a href="#">Lottery Games</a></li>
+												<li><a href="#">Keno</a></li>
+											</ul>
+										</div>
+									</div>
+									<div class="col-xs-6">
+										<label for="game-category">Select Game</label>
+
+										<div class="dropdown">
+											<button class="btn btn-default dropdown-toggle" type="button" id="search-winning-numbers" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+												Megamillions
+												<span class="caret"></span>
+											</button>
+											<ul class="dropdown-menu" aria-labelledby="search-winning-numbers">
+												<li><a href="#">Megamillions</a></li>
+												<li><a href="#">Powerball</a></li>
+												<li><a href="#">Megabucks</a></li>
+												<li><a href="#">Lucky for Life</a></li>
+												<li><a href="#">The Numbers Game</a></li>
+												<li><a href="#">Mass Cash</a></li>
+												<li><a href="#">Jackpot Poker</a></li>
+												<li><a href="#">Keno</a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+					
+		<main>
+			<div class="container">
+
+	<ul class="breadcrumb">
+		<li><a href="#">home</a></li>
+		<li><a href="#">games</a></li>
+		<li><a href="#" class="active">megamillions</a></li>
+	</ul>
+
+	<article class="game">
+		<div class="game-header">
+			<h1>
+				<img src="../img/games/megamillions.png" alt="Megamilions">
+			</h1>
+
+			<p>
+				Pick 5 numbers out&nbsp;of&nbsp;75.<br>
+				You also choose 1 Mega Ball number out&nbsp;of&nbsp;15.<br>
+				See if your numbers match the numbers selected at the next&nbsp;drawing.
+			</p>
+
+			<div class="row">
+				<div class="col-sm-10 col-sm-offset-1 col-md-offset-2 col-md-8">
+					<div class="currently">
+						<div class="currently-cell jackpot">
+							<h2>Current Jackpot</h2>
+							<p>
+								<strong>$280 Million</strong>
+								<small>($186.5 Million Est. Cash Option)</small>
+							</p>
+						</div>
+						<div class="currently-cell timing">
+							<p>
+								Betting Pools
+								<strong>5:00am – 10:45pm</strong><br>
+
+								Drawings Aired on
+								<strong>Friday, 11:24pm | Tuesday, 11:24pm</strong>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="game-winning-numbers">
+			<h2>Winning Numbers</h2>
+
+			<form action="">
+				<label for="search-year">Search Past Numbers <span class="sr-only">(Year)</span></label>
+				<select class="form-control" id="search-year" name="game-year">
+					<option value="">Year</option>
+					<option value="2016">2016</option>
+					<option value="2015">2015</option>
+					<option value="2014">2014</option>
+					<option value="2013">2013</option>
+					<option value="2012">2012</option>
+				</select>
+				
+				<label for="search-month" class="sr-only">Search Past Numbers (Month)</label>
+				<select class="form-control" id="search-month" name="game-month">
+					<option value="">Month</option>
+					<option value="January">January</option>
+					<option value="February">February</option>
+					<option value="March">March</option>
+					<option value="April">April</option>
+					<option value="May">May</option>
+					<option value="June">June</option>
+					<option value="July">July</option>
+					<option value="August">August</option>
+					<option value="September">September</option>
+					<option value="October">October</option>
+					<option value="November">November</option>
+					<option value="December">December</option>
+				</select>
+			</form>
+			
+			<table class="winning-numbers sticky-first-column">
+				<thead>
+					<tr>
+						<th>Draw Number</th>
+						<th>Date</th>
+						<th>Winning Number</th>
+						<th>Megaball</th>
+						<th>Jackpot Amount</th>
+						<th>Jackpot Winners</th>
+						<th>Where Sold</th>
+						<th>Megaplier</th>
+						<th>Video</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th scope="row">1989</th>
+						<td>06/10/2016</td>
+						<td>34-61-66-67-68</td>
+						<td>07</td>
+						<td>$280 MILLION</td>
+						<td>&nbsp;</td>
+						<td>&nbsp;</td>
+						<td>5</td>
+						<td><a href="#" class="video-play"><i class="fa fa-play"></i><span class="sr-only"> Play</span></a></td>
+					</tr>
+					<tr>
+						<th scope="row">1988</th>
+						<td>06/07/2016</td>
+						<td>25-48-51-65-72</td>
+						<td>04</td>
+						<td>$260 MILLION</td>
+						<td>&nbsp;</td>
+						<td>&nbsp;</td>
+						<td>4</td>
+						<td><a href="#" class="video-play"><i class="fa fa-play"></i><span class="sr-only"> Play</span></a></td>
+					</tr>
+					<tr>
+						<th scope="row">1987</th>
+						<td>06/03/2016</td>
+						<td>32-54-65-66-71</td>
+						<td>10</td>
+						<td>$251 MILLION</td>
+						<td>&nbsp;</td>
+						<td>&nbsp;</td>
+						<td>3</td>
+						<td><a href="#" class="video-play"><i class="fa fa-play"></i><span class="sr-only"> Play</span></a></td>
+					</tr>
+					<tr>
+						<th scope="row">1986</th>
+						<td>05/31/2016</td>
+						<td>09-31-34-41-49</td>
+						<td>08</td>
+						<td>$235 MILLION</td>
+						<td>&nbsp;</td>
+						<td>&nbsp;</td>
+						<td>5</td>
+						<td><a href="#" class="video-play"><i class="fa fa-play"></i><span class="sr-only"> Play</span></a></td>
+					</tr>
+					<tr>
+						<th scope="row">1985</th>
+						<td>05/27/2016</td>
+						<td>18-41-50-68-70</td>
+						<td>09</td>
+						<td>$218 MILLION</td>
+						<td>&nbsp;</td>
+						<td>&nbsp;</td>
+						<td>3</td>
+						<td><a href="#" class="video-play"><i class="fa fa-play"></i><span class="sr-only"> Play</span></a></td>
+					</tr>
+					<tr>
+						<th scope="row">1984</th>
+						<td>05/24/2016</td>
+						<td>11-50-51-70-75</td>
+						<td>15</td>
+						<td>$203 MILLION</td>
+						<td>&nbsp;</td>
+						<td>&nbsp;</td>
+						<td>4</td>
+						<td><a href="#" class="video-play"><i class="fa fa-play"></i><span class="sr-only"> Play</span></a></td>
+					</tr>
+					<tr>
+						<th scope="row">1983</th>
+						<td>05/20/2016</td>
+						<td>19-24-26-40-68</td>
+						<td>08</td>
+						<td>$187 MILLION</td>
+						<td>&nbsp;</td>
+						<td>&nbsp;</td>
+						<td>2</td>
+						<td><a href="#" class="video-play"><i class="fa fa-play"></i><span class="sr-only"> Play</span></a></td>
+					</tr>
+					<tr>
+						<th scope="row">1982</th>
+						<td>05/17/2016</td>
+						<td>17-24-27-48-75</td>
+						<td>06</td>
+						<td>$174 MILLION</td>
+						<td>&nbsp;</td>
+						<td>&nbsp;</td>
+						<td>3</td>
+						<td><a href="#" class="video-play"><i class="fa fa-play"></i><span class="sr-only"> Play</span></a></td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+
+		<div class="tabs info-tabs styled-tabs three-tabs">
+			<ul class="nav nav-tabs" role="tablist">
+				<li role="presentation" class="active">
+					<a href="#tab-how-to-play" class="match-height" aria-controls="tab-how-to-play" role="tab" data-toggle="tab"><div><span>How to Play</span></div></a>
+				</li>
+				<li role="presentation">
+					<a href="#tab-how-to-win" class="match-height" aria-controls="tab-how-to-win" role="tab" data-toggle="tab"><div><span>How to Win</span></div></a>
+				</li>
+				<li role="presentation">
+					<a href="#tab-rules" class="match-height" aria-controls="tab-rules" role="tab" data-toggle="tab"><div><span>Rules</span></div></a>
+				</li>
+			</ul>
+
+			<div class="tab-content">
+				<div role="tabpanel" class="tab-pane active full-bleed" id="tab-how-to-play">
+					<div class="tab-wrapper">
+						<div class="row">
+							<div class="col-md-5">
+								<ol class="balled-digits">
+									<li>
+										<span class="number invert">1</span>
+										Fill out a <strong>MEGA MILLIONS</strong> bet slip by choosing five (5) numbers out of
+										a field of seventy-five (75). (1) number, the MEGABALL number, from
+										another field of fifteen (15) numbers for each $1 bet you wish to make.
+									</li>
+
+									<li>
+										<span class="number invert">2</span>
+										(1) number, the <strong>MEGABALL</strong> number, from another field of fifteen (15)
+										numbers for each $1 bet you wish to make.
+									</li>
+
+									<li>
+										<span class="number invert">3</span>
+										How to play Megaplier. Multiply your non-jackpot prizes by 2 3 or 4 times with the
+										<strong>Megaplier</strong> option. To play the Megaplier mark the box - <strong>YES</strong>.
+										Megaplier wagers must be equal to the Mega Millions Wager on your betslip. Selecting
+										Megaplier doubles the price of your ticket.
+									</li>
+
+									<li>
+										<span class="number invert">4</span>
+										You may play the same numbers for more than one drawing. Mark the appropriate box
+										for number of draws.
+									</li>
+								</ol>
+							</div>
+							<div class="col-md-5 col-md-offset-2">
+								<ol class="balled-digits" start="5">
+									<li>
+										<span class="number invert">5</span>
+										Give the completed bet slip to an on-line Lottery Sales Agent.
+									</li>
+
+									<li>
+										<span class="number invert">6</span>
+										Remember that if you do not want to fill out a bet slip you can simply ask the
+										Agent for a Quic Pic and the Lottery’s computer will pick your numbers for you.
+									</li>
+
+									<li>
+										<span class="number invert">7</span>
+										The Sales Agent will give you a separate ticket as your receipt.
+										<strong>IMPORTANT: CHECK YOUR TICKET! BE SURE THAT IT REPRESENTS THE NUMBERS AND
+											DRAWING THAT YOU WANTED TO PLAY, AS IT IS YOUR ONLY PROOF OF PLAYING THESE NUMBERS.</strong>
+										The Lottery suggests, for your own protection, that you sign the back of your ticket
+										to identify ownership.
+									</li>
+								</ol>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div role="tabpanel" class="tab-pane full-bleed wide-tables" id="tab-how-to-win">
+					<div class="tab-wrapper">
+						<table class="how-to-win sticky-first-column">
+							<thead>
+								<tr>
+									<th>Match</th>
+									<th>+</th>
+									<th>Megaball</th>
+									<th>Probability</th>
+									<th>Top Prize</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<th scope="row">5</th>
+									<td>+</td>
+									<td>1</td>
+									<td>1 in 258,890,850</td>
+									<td>Jackpot</td>
+								</tr>
+								<tr>
+									<th scope="row">5</th>
+									<td>&nbsp;</td>
+									<td>&nbsp;</td>
+									<td>1 in 18,492,204</td>
+									<td>$1,000,000</td>
+								</tr>
+								<tr>
+									<th scope="row">4</th>
+									<td>+</td>
+									<td>1</td>
+									<td>1 in 739,688</td>
+									<td>$5,000</td>
+								</tr>
+								<tr>
+									<th scope="row">4</th>
+									<td>&nbsp;</td>
+									<td>&nbsp;</td>
+									<td>1 in 52,835</td>
+									<td>$500</td>
+								</tr>
+								<tr>
+									<th scope="row">3</th>
+									<td>+</td>
+									<td>1</td>
+									<td>1 in 10,720</td>
+									<td>$50</td>
+								</tr>
+								<tr>
+									<th scope="row">3</th>
+									<td>&nbsp;</td>
+									<td>&nbsp;</td>
+									<td>1 in 766</td>
+									<td>$5</td>
+								</tr>
+								<tr>
+									<th scope="row">2</th>
+									<td>+</td>
+									<td>1</td>
+									<td>1 in 473</td>
+									<td>$5</td>
+								</tr>
+								<tr>
+									<th scope="row">1</th>
+									<td>+</td>
+									<td>1</td>
+									<td>1 in 56</td>
+									<td>$2</td>
+								</tr>
+								<tr>
+									<th scope="row">0</th>
+									<td>+</td>
+									<td>1</td>
+									<td>1 in 21</td>
+									<td>$1</td>
+								</tr>
+							</tbody>
+						</table>
+						
+						<div class="row">
+							<div class="col-md-5">
+								<p>
+									* Overall odds are 1 in 14.71<br>
+									* Prizes based on a $1 wager.<br>
+									* The jackpot will be divided evenly among winners.
+								</p>
+							</div>
+							<div class="col-md-7">
+								<p>
+									This prize structure is valid for tickets purchased October 19, 2013 and after. In some cases, these prizes will be paid on a pari-mutuel basis and will be lower than these published prize levels. See official game rules.
+								</p>
+								
+								<p>
+									The Big Game changed its name on May 15th 2002, to The Big Game Mega Millions. The Big Game Mega Millions changed its name on June 22, 2005, to Mega Millions. Mega Millions added the Megaplier option on January 15, 2011.
+								</p>
+							</div>
+						</div>
+
+						<h2>Prizes for Megaplier<sup>©</sup> Winners*</h2>
+						<table class="how-to-win sticky-first-column">
+							<thead>
+								<tr>
+									<th>Match</th>
+									<th>X2</th>
+									<th>X3</th>
+									<th>X4</th>
+									<th>X5</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<th scope="row">5 of 75</th>
+									<td>$2,000,000**</td>
+									<td>$3,000,000**</td>
+									<td>$4,000,000**</td>
+									<td>$5,000,000**</td>
+								</tr>
+								<tr>
+									<th scope="row">4 of 75 + 1 of 15</th>
+									<td>$10,000</td>
+									<td>$15,000</td>
+									<td>$20,000</td>
+									<td>$25,000</td>
+								</tr>
+								<tr>
+									<th scope="row">4 of 75</th>
+									<td>$1,000</td>
+									<td>$1,500</td>
+									<td>$2,000</td>
+									<td>$2,500</td>
+								</tr>
+								<tr>
+									<th scope="row">3 of 75 + 1 of 15</th>
+									<td>$100</td>
+									<td>$150</td>
+									<td>$200</td>
+									<td>$250</td>
+								</tr>
+								<tr>
+									<th scope="row">3 of 75</th>
+									<td>$10</td>
+									<td>$15</td>
+									<td>$20</td>
+									<td>$25</td>
+								</tr>
+								<tr>
+									<th scope="row">2 of 75 + 1 of 15</th>
+									<td>$10</td>
+									<td>$15</td>
+									<td>$20</td>
+									<td>$25</td>
+								</tr>
+								<tr>
+									<th scope="row">1 of 75 + 1 of 15</th>
+									<td>$4</td>
+									<td>$6</td>
+									<td>$8</td>
+									<td>$10</td>
+								</tr>
+								<tr>
+									<th scope="row">0 of 75 + 1 of 15</th>
+									<td>$2</td>
+									<td>$3</td>
+									<td>$4</td>
+									<td>$5</td>
+								</tr>
+							</tbody>
+						</table>
+						
+						<div class="row">
+							<div class="col-xs-12">
+								<p>
+									The Megaplier option costs an additional $1 per play and multiply non-jackpot (lower-tier) prizes by 2, 3, 4, or 5. Megaplier will be drawn before the Mega Millions number is drawn.<br>
+									** $1 Million prizes are subject to Mega Millions rules relating to pari-mutuel payments<br>
+									* The megaplier does not apply to the jackpot
+								</p>
+							</div>
+						</div>
+					</div>				
+				</div>
+				<div role="tabpanel" class="tab-pane full-bleed" id="tab-rules">
+					<div class="tab-wrapper">
+						<div class="row">
+							<div class="col-md-5">
+								<ol class="balled-digits">
+									<li>
+										<span class="number invert">1</span>
+										By placing a Mega Millions bet, bettors agree to abide by Massachusetts State Lottery Commission Rules and Regulations. Applicable rules are available for inspection by bettors by contacting the Lottery directly at 60 Columbian Street, Braintree, MA 02184.
+									</li>
+
+									<li>
+										<span class="number invert">2</span>
+										Bets are not effective until accepted by the Lottery’s on-line computer processing system prior to the drawing of the winning numbers and in accordance with Lottery rules. Bettors acknowledge that on-line Lottery sales agents are acting on behalf of the bettors in entering bets into the Lottery’s on-line computer processing system. The liability of the Lottery and the Lottery’s on-line Sales Agent whether arising through breach of contract, negligence, or otherwise is limited to a refund of the amount wagered if the bet(s) is (are) not accepted by the Lottery’s on-line Computer Processing System, or if betting slips are marked incorrectly, entered incorrectly into the system, or are otherwise invalid. The placing of Mega Millions bets is done at the player’s own risk through the on-line Lottery Sales Agent who is acting on behalf of the player in entering the bet(s) into the Lottery’s on-line Computer Processing System
+									</li>
+									<li>
+										<span class="number invert">3</span>
+										Approximately 50% of the amount of money wagered on each drawing goes into the prize pool.
+									</li>
+									<li>
+										<span class="number invert">4</span>
+										In some cases, prizes may be paid on a pari-mutuel basis and will be lower than published prize levels. Refer to the official game rules for a detailed explanation of the optional pari-mutuel prize payment.
+									</li>
+								</ol>
+							</div>
+							<div class="col-md-5 col-md-offset-2">
+								<ol class="balled-digits" start="5">
+									<li>
+										<span class="number invert">5</span>
+										Jackpot Payment Options – Jackpot winners have 60 days beginning the day after the winning numbers were drawn to select a payment option. Effective 10/19/13 the Annuitized Grand/Jackpot prize is payable in thirty (30) graduated annual installments. A Cash Option means winners can choose a one-time cash payment which will be (approximately) the cost of the annuity divided by the number of winning tickets. Note: If a winner fails to claim the jackpot and select a jackpot payment option within 60 days, the prize will be automatically paid as an annuity. All prizes must be claimed within one year of the drawing.
+									</li>
+									<li>
+										<span class="number invert">6</span>
+										Your ticket is a bearer instrument. Unless signed by owner, prize may be claimed by anyone in possession of winning ticket. SIGN YOUR TICKET IMMEDIATELY. Bettors agree to abide by Lottery Commission rules and regulations. Applicable rules are available for inspection by bettors by contacting the Lottery Commission at 60 Columbian Street, Braintree, MA 02184.
+									</li>
+									<li>
+										<span class="number invert">7</span>
+										NOTICE: By placing a Mega Millions bet, bettors agree, as their sole and exclusive remedy, that claims arising out of the participation in the game shall be pursued only against the State where the ticket was purchased, or was attempted to be purchased.
+									</li>
+									<li>
+										<span class="number invert">8</span>
+										All Prizes are based on a $1.00 wager.
+									</li>
+									<li>
+										<span class="number invert">9</span>
+										All cash prizes must be claimed within one (1) year following the draw date.
+									</li>
+								</ol>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- small-screen view of promos -->
+		<div class="small-screen-styled-tabs">
+			<div class="panel-group accordion" id="accordion-info" role="tablist" aria-multiselectable="true">
+				<div class="panel panel-default">
+					<div class="panel-heading" role="tab" id="accordion-how-to-play-heading">
+						<h4 class="panel-title">
+							<a href="#accordion-how-to-play" class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion-info" aria-expanded="true" aria-controls="accordion-how-to-play">
+								How to Play
+							</a>
+						</h4>
+					</div>
+
+					<div id="accordion-how-to-play" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-how-to-play-heading">
+						<div class="panel-wrapper">
+							<div class="row">
+								<div class="col-md-5">
+									<ol class="balled-digits">
+										<li>
+											<span class="number invert">1</span>
+											Fill out a <strong>MEGA MILLIONS</strong> bet slip by choosing five (5) numbers out of
+											a field of seventy-five (75). (1) number, the MEGABALL number, from
+											another field of fifteen (15) numbers for each $1 bet you wish to make.
+										</li>
+
+										<li>
+											<span class="number invert">2</span>
+											(1) number, the <strong>MEGABALL</strong> number, from another field of fifteen (15)
+											numbers for each $1 bet you wish to make.
+										</li>
+
+										<li>
+											<span class="number invert">3</span>
+											How to play Megaplier. Multiply your non-jackpot prizes by 2 3 or 4 times with the
+											<strong>Megaplier</strong> option. To play the Megaplier mark the box - <strong>YES</strong>.
+											Megaplier wagers must be equal to the Mega Millions Wager on your betslip. Selecting
+											Megaplier doubles the price of your ticket.
+										</li>
+
+										<li>
+											<span class="number invert">4</span>
+											You may play the same numbers for more than one drawing. Mark the appropriate box
+											for number of draws.
+										</li>
+									</ol>
+								</div>
+								<div class="col-md-5 col-md-offset-2">
+									<ol class="balled-digits" start="5">
+										<li>
+											<span class="number invert">5</span>
+											Give the completed bet slip to an on-line Lottery Sales Agent.
+										</li>
+
+										<li>
+											<span class="number invert">6</span>
+											Remember that if you do not want to fill out a bet slip you can simply ask the
+											Agent for a Quic Pic and the Lottery’s computer will pick your numbers for you.
+										</li>
+
+										<li>
+											<span class="number invert">7</span>
+											The Sales Agent will give you a separate ticket as your receipt.
+											<strong>IMPORTANT: CHECK YOUR TICKET! BE SURE THAT IT REPRESENTS THE NUMBERS AND
+												DRAWING THAT YOU WANTED TO PLAY, AS IT IS YOUR ONLY PROOF OF PLAYING THESE NUMBERS.</strong>
+											The Lottery suggests, for your own protection, that you sign the back of your ticket
+											to identify ownership.
+										</li>
+									</ol>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="panel panel-default">
+					<div class="panel-heading" role="tab" id="accordion-how-to-win-heading">
+						<h4 class="panel-title">
+							<a href="#accordion-how-to-win" class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion-info" aria-expanded="true" aria-controls="accordion-how-to-win">
+								How to Win
+							</a>
+						</h4>
+					</div>
+
+					<div id="accordion-how-to-win" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-how-to-win-heading">
+						<div class="panel-wrapper">
+							<table class="how-to-win sticky-first-column">
+								<thead>
+									<tr>
+										<th>Match</th>
+										<th>+</th>
+										<th>Megaball</th>
+										<th>Probability</th>
+										<th>Top Prize</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<th scope="row">5</th>
+										<td>+</td>
+										<td>1</td>
+										<td>1 in 258,890,850</td>
+										<td>Jackpot</td>
+									</tr>
+									<tr>
+										<th scope="row">5</th>
+										<td>&nbsp;</td>
+										<td>&nbsp;</td>
+										<td>1 in 18,492,204</td>
+										<td>$1,000,000</td>
+									</tr>
+									<tr>
+										<th scope="row">4</th>
+										<td>+</td>
+										<td>1</td>
+										<td>1 in 739,688</td>
+										<td>$5,000</td>
+									</tr>
+									<tr>
+										<th scope="row">4</th>
+										<td>&nbsp;</td>
+										<td>&nbsp;</td>
+										<td>1 in 52,835</td>
+										<td>$500</td>
+									</tr>
+									<tr>
+										<th scope="row">3</th>
+										<td>+</td>
+										<td>1</td>
+										<td>1 in 10,720</td>
+										<td>$50</td>
+									</tr>
+									<tr>
+										<th scope="row">3</th>
+										<td>&nbsp;</td>
+										<td>&nbsp;</td>
+										<td>1 in 766</td>
+										<td>$5</td>
+									</tr>
+									<tr>
+										<th scope="row">2</th>
+										<td>+</td>
+										<td>1</td>
+										<td>1 in 473</td>
+										<td>$5</td>
+									</tr>
+									<tr>
+										<th scope="row">1</th>
+										<td>+</td>
+										<td>1</td>
+										<td>1 in 56</td>
+										<td>$2</td>
+									</tr>
+									<tr>
+										<th scope="row">0</th>
+										<td>+</td>
+										<td>1</td>
+										<td>1 in 21</td>
+										<td>$1</td>
+									</tr>
+								</tbody>
+							</table>
+
+							<div class="row">
+								<div class="col-md-5">
+									<p>
+										* Overall odds are 1 in 14.71<br>
+										* Prizes based on a $1 wager.<br>
+										* The jackpot will be divided evenly among winners.
+									</p>
+								</div>
+								<div class="col-md-7">
+									<p>
+										This prize structure is valid for tickets purchased October 19, 2013 and after. In some cases, these prizes will be paid on a pari-mutuel basis and will be lower than these published prize levels. See official game rules.
+									</p>
+
+									<p>
+										The Big Game changed its name on May 15th 2002, to The Big Game Mega Millions. The Big Game Mega Millions changed its name on June 22, 2005, to Mega Millions. Mega Millions added the Megaplier option on January 15, 2011.
+									</p>
+								</div>
+							</div>
+
+							<h2>Prizes for Megaplier<sup>©</sup> Winners*</h2>
+							<table class="how-to-win sticky-first-column">
+								<thead>
+									<tr>
+										<th>Match</th>
+										<th>X2</th>
+										<th>X3</th>
+										<th>X4</th>
+										<th>X5</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<th scope="row">5 of 75</th>
+										<td>$2,000,000**</td>
+										<td>$3,000,000**</td>
+										<td>$4,000,000**</td>
+										<td>$5,000,000**</td>
+									</tr>
+									<tr>
+										<th scope="row">4 of 75 + 1 of 15</th>
+										<td>$10,000</td>
+										<td>$15,000</td>
+										<td>$20,000</td>
+										<td>$25,000</td>
+									</tr>
+									<tr>
+										<th scope="row">4 of 75</th>
+										<td>$1,000</td>
+										<td>$1,500</td>
+										<td>$2,000</td>
+										<td>$2,500</td>
+									</tr>
+									<tr>
+										<th scope="row">3 of 75 + 1 of 15</th>
+										<td>$100</td>
+										<td>$150</td>
+										<td>$200</td>
+										<td>$250</td>
+									</tr>
+									<tr>
+										<th scope="row">3 of 75</th>
+										<td>$10</td>
+										<td>$15</td>
+										<td>$20</td>
+										<td>$25</td>
+									</tr>
+									<tr>
+										<th scope="row">2 of 75 + 1 of 15</th>
+										<td>$10</td>
+										<td>$15</td>
+										<td>$20</td>
+										<td>$25</td>
+									</tr>
+									<tr>
+										<th scope="row">1 of 75 + 1 of 15</th>
+										<td>$4</td>
+										<td>$6</td>
+										<td>$8</td>
+										<td>$10</td>
+									</tr>
+									<tr>
+										<th scope="row">0 of 75 + 1 of 15</th>
+										<td>$2</td>
+										<td>$3</td>
+										<td>$4</td>
+										<td>$5</td>
+									</tr>
+								</tbody>
+							</table>
+
+							<div class="row">
+								<div class="col-xs-12">
+									<p>
+										The Megaplier option costs an additional $1 per play and multiply non-jackpot (lower-tier) prizes by 2, 3, 4, or 5. Megaplier will be drawn before the Mega Millions number is drawn.<br>
+										** $1 Million prizes are subject to Mega Millions rules relating to pari-mutuel payments<br>
+										* The megaplier does not apply to the jackpot
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="panel panel-default">
+					<div class="panel-heading" role="tab" id="accordion-rules-heading">
+						<h4 class="panel-title">
+							<a href="#accordion-rules" class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion-info" aria-expanded="true" aria-controls="accordion-rules">
+								Rules
+							</a>
+						</h4>
+					</div>
+
+					<div id="accordion-rules" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-rules-heading">
+						<div class="panel-wrapper">
+							<div class="row">
+								<div class="col-md-5">
+
+									<ol class="balled-digits">
+										<li>
+											<span class="number invert">1</span>
+											By placing a Mega Millions bet, bettors agree to abide by Massachusetts State Lottery Commission Rules and Regulations. Applicable rules are available for inspection by bettors by contacting the Lottery directly at 60 Columbian Street, Braintree, MA 02184.
+										</li>
+
+										<li>
+											<span class="number invert">2</span>
+											Bets are not effective until accepted by the Lottery’s on-line computer processing system prior to the drawing of the winning numbers and in accordance with Lottery rules. Bettors acknowledge that on-line Lottery sales agents are acting on behalf of the bettors in entering bets into the Lottery’s on-line computer processing system. The liability of the Lottery and the Lottery’s on-line Sales Agent whether arising through breach of contract, negligence, or otherwise is limited to a refund of the amount wagered if the bet(s) is (are) not accepted by the Lottery’s on-line Computer Processing System, or if betting slips are marked incorrectly, entered incorrectly into the system, or are otherwise invalid. The placing of Mega Millions bets is done at the player’s own risk through the on-line Lottery Sales Agent who is acting on behalf of the player in entering the bet(s) into the Lottery’s on-line Computer Processing System
+										</li>
+										<li>
+											<span class="number invert">3</span>
+											Approximately 50% of the amount of money wagered on each drawing goes into the prize pool.
+										</li>
+										<li>
+											<span class="number invert">4</span>
+											In some cases, prizes may be paid on a pari-mutuel basis and will be lower than published prize levels. Refer to the official game rules for a detailed explanation of the optional pari-mutuel prize payment.
+										</li>
+									</ol>
+								</div>
+								<div class="col-md-5 col-md-offset-2">
+									<ol class="balled-digits" start="5">
+										<li>
+											<span class="number invert">5</span>
+											Jackpot Payment Options – Jackpot winners have 60 days beginning the day after the winning numbers were drawn to select a payment option. Effective 10/19/13 the Annuitized Grand/Jackpot prize is payable in thirty (30) graduated annual installments. A Cash Option means winners can choose a one-time cash payment which will be (approximately) the cost of the annuity divided by the number of winning tickets. Note: If a winner fails to claim the jackpot and select a jackpot payment option within 60 days, the prize will be automatically paid as an annuity. All prizes must be claimed within one year of the drawing.
+										</li>
+										<li>
+											<span class="number invert">6</span>
+											Your ticket is a bearer instrument. Unless signed by owner, prize may be claimed by anyone in possession of winning ticket. SIGN YOUR TICKET IMMEDIATELY. Bettors agree to abide by Lottery Commission rules and regulations. Applicable rules are available for inspection by bettors by contacting the Lottery Commission at 60 Columbian Street, Braintree, MA 02184.
+										</li>
+										<li>
+											<span class="number invert">7</span>
+											NOTICE: By placing a Mega Millions bet, bettors agree, as their sole and exclusive remedy, that claims arising out of the participation in the game shall be pursued only against the State where the ticket was purchased, or was attempted to be purchased.
+										</li>
+										<li>
+											<span class="number invert">8</span>
+											All Prizes are based on a $1.00 wager.
+										</li>
+										<li>
+											<span class="number invert">9</span>
+											All cash prizes must be claimed within one (1) year following the draw date.
+										</li>
+									</ol>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="elsewhere">
+			<div class="row">
+				<div class="col-md-4 col-sm-6">
+					<section class="highlight-box past-winners blue-background">
+						<h2>Past Winners</h2>
+						
+						<div class="box">
+							<a href="#" class="btn btn-green">View Past Lottery Winners</a>
+						</div>
+					</section>
+				</div>
+				
+				<div class="col-md-4 col-sm-6">
+					<section class="highlight-box season-tickets blue-background">
+						<h2>Season Tickets</h2>
+						
+						<div class="box">
+							<p>
+								<strong>Order Mega Millions Season Tickets</strong>
+								now by calling 1 (800) 222-8587 or visiting your Lottery&nbsp;agent.
+							</p>
+						</div>
+					</section>
+				</div>
+				
+				<div class="col-md-4 col-sm-12">
+					<section class="highlight-box where-to-play blue-background">
+						<h2>Where to Play</h2>
+
+						<div class="box">
+							<form action="" method="post">
+								<div class="tabs toggler">
+									<ul class="nav nav-tabs nav-justified" role="tablist" data-update="where-game">
+										<li role="presentation" class="active">
+											<a href="#tab-keno" class="match-height" aria-controls="tab-keno" role="tab" data-toggle="tab">Keno</a>
+										</li>
+										<li role="presentation">
+											<a href="#tab-all-or-nothing" class="match-height" aria-controls="tab-all-or-nothing" role="tab" data-toggle="tab">All or Nothing</a>
+										</li>
+									</ul>
+
+									<input type="hidden" name="game" id="where-game" value="keno">
+								</div>
+
+								<div class="row search-by">
+									<div class="col-xs-12">
+										<h3>Search By:</h3>
+
+										<div class="row">
+											<div class="col-xs-5">
+												<select name="zip-code" id="play-zip-code" class="form-control zip-code">
+													<option value="">Zip Code</option>
+													<option value="01001">01001</option>
+													<option value="01002">01002</option>
+													<option value="01003">01003</option>
+													<option value="01004">01004</option>
+												</select>
+											</div>
+											<div class="col-xs-2 or">
+												<strong>or</strong>
+											</div>
+											<div class="col-xs-5">
+												<select name="town" id="play-town" class="form-control town">
+													<option value="">Town</option>
+													<option value="Abington">Abington</option>
+													<option value="Acton">Acton</option>
+													<option value="Acushnet">Acushnet</option>
+													<option value="Adams">Adams</option>
+													<option value="Agawam">Agawam</option>
+													<option value="Allston">Allston</option>
+													<option value="Amesbury">Amesbury</option>
+													<option value="Amherst">Amherst</option>
+													<option value="Andover">Andover</option>
+													<option value="Arlington">Arlington</option>
+													<option value="Ashburnham">Ashburnham</option>
+													<option value="Ashby">Ashby</option>
+													<option value="Ashfield">Ashfield</option>
+													<option value="Ashland">Ashland</option>
+												</select>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="row">
+									<div class="col-xs-12">
+										<input type="submit" class="btn btn-green" value="Search">
+									</div>
+								</div>
+							</form>
+						</div>
+					</section>
+				</div>
+			</div>
+		</div>
+	</article>
+
+			</div>
+		</main>
+
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8">
+						<div class="row">
+							<div class="contact col-xs-4">
+								<h2>Contact</h2>
+	
+								<p class="address">
+									60 Columbian Street<br>
+									Braintree, MA 02184
+								</p>
+	
+								<p class="phone">
+									(781) 849-5555
+								</p>
+	
+								<ul>
+									<li><a href="#">View all offices</a></li>
+									<li><a href="#">Email the Webmaster</a></li>
+									<li><a href="#">ADA Information</a></li>
+								</ul>
+							</div>
+	
+							<div class="quick-links col-xs-4">
+								<h2>Quick Links</h2>
+	
+								<ul>
+									<li><a href="#">Lottery Games</a></li>
+									<li><a href="#">Instant Games</a></li>
+									<li><a href="#">VIP Club</a></li>
+									<li><a href="#">Becoming an agent</a></li>
+									<li><a href="#">Claiming a prize</a></li>
+									<li><a href="#">Drawing procedures</a></li>
+									<li><a href="#">FAQs</a></li>
+									<li><a href="#">Procurement</a></li>
+								</ul>
+							</div>
+	
+							<div class="where-can-i col-xs-4">
+								<h2>Where can I…</h2>
+	
+								<ul>
+									<li><a href="#">Find past winning numbers</a></li>
+									<li><a href="#">Play Lottery Games</a></li>
+									<li><a href="#">Play Bingo</a></li>
+									<li><a href="#">Find Lottery office locations</a></li>
+									<li><a href="#">Get help with compulsive gambling</a></li>
+									<li><a href="#">Find other state agencies</a></li>
+									<li><a href="#">Buy Season Tickets</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="legal col-md-4">
+						<p>
+							<strong>Disclaimer: Information found on this website is believed to be accurate.</strong>
+							If you have questions about the winning numbers, contact the Lottery at (781) 848-7755 or visit your nearest Lottery agent or Lottery office for the official winning numbers.
+						</p>
+	
+						<p>
+							<strong>The Lottery would like to remind players that it is UNLAWFUL for anyone under the age of 18 to play.</strong><br>
+							© 2016 Massachusetts State Lottery Commission, All Rights Reserved
+							A Commission under the Department of the Treasurer and Receiver General of the Commonwealth
+						</p>
+	
+						<p class="legal-links">
+							<a href="#">Site Map &gt;</a>
+							<a href="#">Privacy &gt;</a>
+							<a href="#">Legal Notice &gt;</a>
+							<a href="http://mass.gov">Mass.gov &gt;</a>
+							<a href="#">Compulsive Gambling Help &gt;</a>
+						</p>
+					</div>
+				</div>
+
+				<nav class="social">
+					<ul>
+						<li><a href="#" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="#" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="#" title="Instagram"><i class="fa fa-instagram"></i></a></li>
+						<li><a href="#" title="YouTube"><i class="fa fa-youtube"></i></a></li>
+						<li><a href="#" title="Flickr"><i class="fa fa-flickr"></i></a></li>
+						<li><a href="#" title="RSS"><i class="fa fa-rss"></i></a></li>
+					</ul>
+				</nav>
+			</div>
+		</footer>
+
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="/js/jquery.js"></script>
+		<script src="/js/jquery.match-height.js"></script>
+		<script src="/js/lightslider.min.js"></script>
+		<script src="/js/jquery.tablesorter.combined.js"></script>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="/js/bootstrap.min.js"></script>
+		<script src="/js/site.js"></script>
+	</body>
+</html>
